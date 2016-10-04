@@ -1,0 +1,33 @@
+
+
+body{  background: yellow; }
+
+.anamenu{
+
+    background:darkgrey;
+    height: 560px;
+    width: 1040px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+
+
+.kolon { float:left;  padding:10px; margin:10px; }
+
+
+input.res{background:#333333; width:300px; height: 50px;}
+input.resbut{background:#666666; width: 80px; height: 50px;}
+textarea.yaz{background:#666666; width:300px; height: 60px;}
+textarea.yazi{background:#333333; width:300px; height: 100px; }
+
+input.yaz{background:#444444;padding:6px; margin-top: 5px;}
+input.buton{background: #444444; margin-top: 10px;}
+
+option{color: #382D2C ; }
+
+
+
+a{color: #659EC7; text-decoration: none;}
+
+p {font-size: 15pt; font-family: Georgia,Times New Roman,Times,serif; color: crimson; }

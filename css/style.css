@@ -1,0 +1,170 @@
+.ana{
+    width:1333px;height:auto;margin-left:auto;margin-right:auto;
+}
+.ust {
+    background: url("../img/bg.jpg");
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    display: block;
+    Top: 0;
+    left: 0;
+}
+
+img.kisi{
+    -webkit-transform:scale(1.0); /*Webkit: Scale down image to 0.8x original size*/
+    -moz-transform:scale(1.0); /*Mozilla scale version*/
+    -o-transform:scale(1.0); /*Opera scale version*/
+    -webkit-transition-duration: 0.5s; /*Webkit: Animation duration*/
+    -moz-transition-duration: 0.5s; /*Mozilla duration version*/
+    -o-transition-duration: 0.5s; /*Opera duration version*/
+    opacity: 1; /*initial opacity of images*/
+    margin: 0 10px 5px 0; /*margin between images*/
+}
+
+img.kisi:hover{
+    -webkit-transform:scale(1.1); /*Webkit: Scale up image to 1.2x original size*/
+    -moz-transform:scale(1.1); /*Mozilla scale version*/
+    -o-transform:scale(1.1); /*Opera scale version*/
+    box-shadow:0px 0px 30px gray; /*CSS3 shadow: 30px blurred shadow all around image*/
+    -webkit-box-shadow:0px 0px 30px gray; /*Safari shadow version*/
+    -moz-box-shadow:0px 0px 30px gray; /*Mozilla shadow version*/
+    opacity: 1.5;
+}
+
+.menu{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+.menu a {
+    color: #ffffff;
+    font-weight: 600;
+    font-size: larger ;
+    transition-duration:0.8s;
+    border-right: solid;
+    border-color: #ffffff;
+    border-right-width: 1px;
+    padding:5px;
+}
+.menu a:hover {
+    background: #23C8FF;
+    color: #ffffff;
+}
+
+.alt{
+    width: 100%;
+    height:auto;
+    margin-top:40%;
+    word-wrap: break-word;
+}
+.yazilim{
+    background:  #e6e6e6;
+    width: 60%;
+    height:auto;
+    padding:10px;
+    word-wrap: break-word;
+}
+
+.incele{
+    background:  #e6e6e6;
+    width:60%;
+    height:auto;
+    padding: 10px;
+    margin-top:20px;
+    word-wrap: break-word;
+}
+.incele img{
+    height:auto;
+    width:auto;
+}
+
+.youtube{
+    background:  #e6e6e6;
+    width:60%;
+    height:auto;
+    padding:10px;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+.youtube img{
+    height:auto;
+    width:auto;
+}
+
+.abone_ol{
+    margin-top: 10px;
+    width:400px;
+    height:55px;
+}
+.buton{margin-top: 5px;}
+
+.projects{
+    background:  #f2f2f2;
+    width:60%;
+    height:auto;
+    padding: 10px;
+    margin-top:20px;
+    word-wrap: break-word;
+}
+.projects img{
+    height:auto;
+    width:auto;
+}
+
+option{
+    color:#bf0000;
+    font-size: large;
+    font-weight: 600;
+    transition-duration: 0.5s;
+}
+
+.contact {
+    width:60%;
+    height: 50%;
+}
+
+.contact img {
+    height: 40px;
+    width: 40px;
+}
+
+b{
+    color: whitesmoke;
+    font-family: "Adobe Caslon Pro";
+    font-weight: bolder;
+    margin-top: 50px;
+}
+
+i{  font-size:20px ;  }
+
+a{
+    font-size: x-large;
+    color: black;
+    text-decoration: none;
+    transition-duration:0.5s;
+    cursor: pointer;
+}
+
+h3{
+    color: #363636;
+    font-weight:normal;
+    font-family: "Adobe Devanagari";
+    margin-top: 5px;
+}
+
+.user{
+    font-weight:600;
+    color: rgb(157, 23, 74);
+    cursor: pointer;
+    transition-duration:0.8s;
+}
+
+hr{  color: #000000;}
+
+
+
+
+.projeler{ opacity:1.0; margin-right: 15px; margin-left: 15px;}
+.projeler:hover{ opacity:0.7;}
